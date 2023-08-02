@@ -1,0 +1,23 @@
+one:
+  title: Movie One
+  genre: Action
+  rating: 8.5
+  available_copies: 5
+
+two:
+  title: Movie Two
+  genre: Drama
+  rating: 7.9
+  available_copies: 2
+
+three:
+  title: Movie Three
+  genre: Comedy
+  rating: 6.8
+  available_copies: 3
+
+without_available_copies:
+  title: Movie W/ Copies
+  genre: Comedy
+  rating: 4.8
+  available_copies: 0

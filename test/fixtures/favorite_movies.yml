@@ -1,0 +1,11 @@
+favorite_one:
+  user: user_with_favorites
+  movie: one
+
+favorite_two:
+  user: user_with_favorites
+  movie: two
+
+favorite_three:
+  user: user_with_rented_movies
+  movie: three

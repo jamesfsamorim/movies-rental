@@ -1,0 +1,7 @@
+rental_one:
+  user: user_with_rented_movies
+  movie: one
+
+rental_two:
+  user: user_with_rented_movies
+  movie: two

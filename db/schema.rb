@@ -11,9 +11,11 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_07_03_183443) do
-  create_table "favorite_movies", id: false, force: :cascade do |t|
-    t.integer "movie_id"
-    t.integer "user_id"
+  create_table "favorite_movies", force: :cascade do |t|
+    t.integer "movie_id", null: false
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["movie_id"], name: "index_favorite_movies_on_movie_id"
     t.index ["user_id", "movie_id"], name: "index_favorite_movies_on_user_id_and_movie_id", unique: true
     t.index ["user_id"], name: "index_favorite_movies_on_user_id"

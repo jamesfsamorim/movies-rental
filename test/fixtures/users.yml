@@ -1,0 +1,8 @@
+user_with_favorites:
+  name: John Doe
+
+user_with_rented_movies:
+  name: Jane Smith
+
+user_without_rented_movies:
+  name: Bob Johnson

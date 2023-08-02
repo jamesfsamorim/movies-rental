@@ -47,3 +47,53 @@ Remember, the main goal of this challenge is not to write a fully-functional app
 The code has dozens of potential improvements, and we don't expect you to work on all of them. Feel free to prioritize the ones you consider most important to address in **about 3 hours of work**.
 
 _**Happy Coding!**_
+
+# Change Log
+   * Refactor movies controller and create of users controllers
+   * Added CRUD methods in movies and users
+   * Request Validation and handling edge cases in the endpoint services
+   * Refactoring the RecomendationEngine
+   * Added Integration tests
+   * Added API request collection in Insomnia and Postman
+
+# Future Business Logic and features
+
+ **1 - User Reviews and Ratings:** Allow users to leave reviews and ratings for movies they have rented. This could help other users make informed decisions about which movies to rent.
+
+**2 -Movie Recommendations:** Implement a more advanced recommendation system that suggests movies based on user preferences, viewing history, and ratings.
+
+**3 - Multiple Rental Plans:** Offer different rental plans such as monthly subscriptions, pay-per-movie, or bundles that allow users to rent multiple movies at a discounted price.
+
+**4 - Payment Integration:** Integrate a payment gateway to enable secure online payments for movie rentals.
+
+**5 - Notifications:** Send notifications to users when a movie they want to watch becomes available for rent or when a rented movie is about to expire.
+
+**6 - Watchlist:** Allow users to create a watchlist of movies they're interested in watching in the future.
+
+**7 - Streaming Option:** Provide an option for users to stream movies online instead of just renting physical copies.
+
+**8 - User Profiles:** Create user profiles where users can track their rental history, favorite genres, and manage their account settings.
+
+**9 - Admin Dashboard:** Develop an admin dashboard to manage movies, users, rental history, and gain insights into the platform's usage.
+
+**10 - Advanced Search:** Implement a robust search functionality with filters for genre, release year, director, and more.
+
+**11 - User Authentication:** Enhance user authentication with features like two-factor authentication (2FA) for added security.
+
+**12 - Genre-based Subscriptions:** Offer subscription plans based on specific genres, allowing users to access a collection of movies within their favorite genres.
+
+**13 - Social Sharing:** Integrate social media sharing options so users can easily share their movie rentals and reviews with friends.
+
+**14 - Loyalty Programs:** Implement a loyalty program where users earn points or discounts for each rental, encouraging repeat business.
+
+**15 - Offline Mode:** Develop a feature that allows users to download movies for offline viewing during their rental period.
+
+**16 - Parental Controls:** Include parental control options to restrict access to certain movie ratings or genres for family-friendly viewing.
+
+**17 - Mobile App:** Create a mobile app for convenient access to movie rentals on smartphones and tablets.
+
+**18 - Inventory Management:** Implement an inventory management system to track the availability of physical copies and prevent overselling.
+
+**19 - Suggested Movies:** Provide a "suggested movies" section on the platform's homepage, showcasing popular or newly added movies.
+
+**20 - Advanced Analytics:** Use analytics to track user behavior, rental trends, and movie popularity to make informed business decisions.
